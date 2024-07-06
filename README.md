@@ -49,21 +49,12 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
     <br />
       <a href="https://www.linkedin.com/in/heba-mohsen-0346241b1/" target="_black">
     <sub><b>Dalia Mohammed</b></sub></a>
-    <sub><b>Heba Mohsen</b></sub></a>
-    <sub><b>Dalia Mohammed</b></sub></a> 
-    <sub><b>Dalia Mohammed</b></sub></a>
-    <sub><b>Dalia Mohammed</b></sub></a>
     </td>   
   <td align="center">
-    <a href="https://www.linkedin.com/in/daliaelsayed1" target="_black">
+    <a href="https://www.linkedin.com/in/heba-mohsen-0346241b1/" target="_black">
     <img src="https://avatars.githubusercontent.com/u/34817624?v=4" width="100px;" alt="Dalia Mohammed"/>
     <br />
-      <a href="https://www.linkedin.com/in/heba-mohsen-0346241b1/" target="_black">
-    <sub><b>Dalia Mohammed</b></sub></a>
     <sub><b>Heba Mohsen</b></sub></a>
-    <sub><b>Dalia Mohammed</b></sub></a> 
-    <sub><b>Dalia Mohammed</b></sub></a>
-    <sub><b>Dalia Mohammed</b></sub></a>
     </td>   
   </tr>
  </table>
