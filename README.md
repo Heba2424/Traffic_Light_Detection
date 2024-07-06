@@ -50,9 +50,17 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
       <a href="https://www.linkedin.com/in/heba-mohsen-0346241b1/" target="_black">
     <sub><b>Dalia Mohammed</b></sub></a>
     </td>   
-  <td align="center">
+    <td align="center">
     <a href="https://www.linkedin.com/in/heba-mohsen-0346241b1/" target="_black">
-    <img src="[https://avatars.githubusercontent.com/u/34817624?v=4](https://github.com/Heba2424/Traffic_Light_Detevtion/assets/74387847/8908bf9c-9749-4527-a6fa-a7f4288d75d8)" width="100px;" alt="Heba Mohsen"/>
+    <img src="https://github.com/Heba2424/Traffic_Light_Detevtion/assets/74387847/8908bf9c-9749-4527-a6fa-a7f4288d75d8" width="100px;" 
+      height= "100" alt="Heba Mohsen"/>
+    <br />
+    <sub><b>Heba Mohsen</b></sub></a>
+    </td>   
+    <td align="center">
+    <a href="https://www.linkedin.com/in/heba-mohsen-0346241b1/" target="_black">
+    <img src="https://github.com/Heba2424/Traffic_Light_Detevtion/assets/74387847/a9891006-eb0e-458c-b904-a5dacdcd4991" width="100px;" 
+      height= "100" alt="Ahmed Darwesh"/>
     <br />
     <sub><b>Heba Mohsen</b></sub></a>
     </td>   
