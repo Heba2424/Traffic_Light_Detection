@@ -1,0 +1,10 @@
+path: D:\Skills\Traning\Generative AI\Traffic Project\Traffic Light Detection.v2i.yolov8  # Replace with the absolute path to your dataset folder
+train: D:\Skills\Traning\Generative AI\Traffic Project\Traffic Light Detection.v2i.yolov8\train\images
+val: ../valid/images
+test: ../test/images
+
+nc: 4  # Number of classes
+names: ['green', 'off' , 'red' , 'yellow']  # List of class names
+
+
+

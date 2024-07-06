@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['green', 'off', 'red', 'yellow']
+
+roboflow:
+  workspace: yolo-babua
+  project: traffic-light-detection-h8cvg
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/yolo-babua/traffic-light-detection-h8cvg/dataset/2
