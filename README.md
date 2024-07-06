@@ -26,12 +26,11 @@ The dataset is structured in directories for lighting types Red, Green, Yellow a
 - **YOLOv8:** Object detection model used for detecting fruits in images.
 - **OpenCV:** Library used for image processing tasks.
 
-## Setup Instructions
 
 
 ## Usage
 
-- **Upload Images:** Click the upload button to select an image or multiple images for prediction.
+- **Upload Video:** Click the upload button to select a video for prediction.
 
 
 ## License
