@@ -52,17 +52,28 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
     </td>   
     <td align="center">
     <a href="https://www.linkedin.com/in/heba-mohsen-0346241b1/" target="_black">
-    <img src="https://github.com/Heba2424/Traffic_Light_Detevtion/assets/74387847/8908bf9c-9749-4527-a6fa-a7f4288d75d8" width="100px;" 
+    <img src="https://github.com/Heba2424/Traffic_Light_Detevtion/assets/74387847/c979f589-5d54-45cc-9681-019af6ca7a89" width="100px;" 
       height= "100" alt="Heba Mohsen"/>
     <br />
     <sub><b>Heba Mohsen</b></sub></a>
     </td>   
     <td align="center">
-    <a href="https://www.linkedin.com/in/heba-mohsen-0346241b1/" target="_black">
-    <img src="https://github.com/Heba2424/Traffic_Light_Detevtion/assets/74387847/a9891006-eb0e-458c-b904-a5dacdcd4991" width="100px;" 
+    <img src="https://github.com/Heba2424/Traffic_Light_Detevtion/assets/74387847/ae6e562e-4f3c-4ee7-a9ce-34fc3df1edbf" width="100px;" 
       height= "100" alt="Ahmed Darwesh"/>
     <br />
-    <sub><b>Heba Mohsen</b></sub></a>
+    <sub><b>Ahmed Darwesh</b></sub></a>
+    </td>   
+    <td align="center">
+    <img src="https://github.com/Heba2424/Traffic_Light_Detevtion/assets/74387847/c979f589-5d54-45cc-9681-019af6ca7a89" width="100px;" 
+      height= "100" alt="Faten Ahmed"/>
+    <br />
+    <sub><b>Faten Ahmed</b></sub></a>
+    </td>   
+  <td align="center">
+    <img src="https://github.com/Heba2424/Traffic_Light_Detevtion/assets/74387847/ae6e562e-4f3c-4ee7-a9ce-34fc3df1edbf" width="100px;" 
+      height= "100" alt="Mohamed Naser"/>
+    <br />
+    <sub><b>Mohamed Naser</b></sub></a>
     </td>   
   </tr>
  </table>
