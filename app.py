@@ -86,7 +86,7 @@ if uploaded_file is not None:
 
     # Download YOLOv8 weights
     weights_url = 'https://www.dropbox.com/scl/fi/4ez66ikuuni8glvpyy8bp/best.pt?rlkey=vjet63pwakuiw5j2omnrhsui6&st=jhfvt7f3&dl=0'  # Replace with your actual URL
-    weights_path = 'best .pt'
+    weights_path = 'best.pt'
     if not os.path.exists(weights_path):
         download_weights(weights_url, weights_path)
 
