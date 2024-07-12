@@ -4,7 +4,7 @@ import tempfile
 from ultralytics import YOLO
 
 # Load YOLOv8 model
-model = YOLO('"D:\Skills\Traning\Generative AI\Traffic Project\best.pt"')  # Ensure you have the correct path to the YOLOv8 weights
+model = YOLO('best.pt')  # Ensure you have the correct path to the YOLOv8 weights
 
 # Define a mapping from class names to colors
 color_map = {
