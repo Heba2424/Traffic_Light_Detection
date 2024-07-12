@@ -28,7 +28,7 @@ def process_video(video_path, model_path):
     cap = cv2.VideoCapture(video_path)
     if not cap.isOpened():
         st.error("Error opening video file. Please check the file path and format.")
-        return
+        return None
 
     # Get video properties
     frame_width = int(cap.get(cv2.CAP_PROP_FRAME_WIDTH))
@@ -46,7 +46,6 @@ def process_video(video_path, model_path):
 
         # Perform detection
         results = model(frame)
-        print(results)  # Debug: print detection results
 
         # Annotate the frame
         for detection in results[0].boxes:
@@ -54,7 +53,6 @@ def process_video(video_path, model_path):
             conf = detection.conf[0]
             cls = detection.cls[0]
             label = model.names[int(cls)]
-            print(f'Detection: {label}, Confidence: {conf}')  # Debug: print each detection
 
             # Determine the bounding box color based on the label
             bbox_color = color_map.get(label, (255, 255, 255))  # Default to white if label not in color_map
@@ -87,16 +85,19 @@ if uploaded_file is not None:
         video_path = temp_file.name
 
     # Download YOLOv8 weights
-    weights_url = 'https://www.dropbox.com/scl/fi/ron5q55nz8nx4nr1yvwwe/best.pt?rlkey=ahlae4yy2ngft1wzze4ft4ioe&st=gaxtm7vv&dl=0'  # Replace with your actual URL
-    weights_path = 'best.pt'
+    weights_url = 'https://www.dropbox.com/scl/fi/4ez66ikuuni8glvpyy8bp/best.pt?rlkey=vjet63pwakuiw5j2omnrhsui6&st=jhfvt7f3&dl=0'  # Replace with your actual URL
+    weights_path = 'best .pt'
     if not os.path.exists(weights_path):
         download_weights(weights_url, weights_path)
 
     # Process video
     output_video_path = process_video(video_path, weights_path)
-    st.success("Video processing complete. Download the output video below:")
+    if output_video_path:
+        st.success("Video processing complete. Download the output video below:")
 
-    # Display and download output video
-    with open(output_video_path, 'rb') as video_file:
-        st.download_button(label="Download Output Video", data=video_file, file_name="output_video.mp4")
-    st.video(output_video_path)
+        # Display and download output video
+        with open(output_video_path, 'rb') as video_file:
+            st.download_button(label="Download Output Video", data=video_file, file_name="output_video.mp4")
+        st.video(output_video_path)
+    else:
+        st.error("Failed to process video.")
