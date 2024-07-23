@@ -51,7 +51,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
     </td>   
     <td align="center">
     <a href="https://www.linkedin.com/in/heba-mohsen-0346241b1/" target="_black">
-    <img src="https://github.com/Heba2424/Traffic_Light_Detevtion/assets/74387847/c979f589-5d54-45cc-9681-019af6ca7a89" width="100px;" 
+    <img src="https://github.com/user-attachments/assets/1cf72985-c50c-4757-b7c9-24a229e0d722" width="100px;" 
       height= "100" alt="Heba Mohsen"/>
     <br />
     <sub><b>Heba Mohsen</b></sub></a>
